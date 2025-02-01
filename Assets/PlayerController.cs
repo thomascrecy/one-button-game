@@ -30,15 +30,15 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
-        if (Input.GetMouseButtonDown(0)) // Left mouse button clicked
+        if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            if (mousePosition.x < 0) // Click on the left side of the screen
+            if (mousePosition.x < 0)
             {
                 moveX = -moveSpeed;
             }
-            else // Click on the right side of the screen
+            else
             {
                 moveX = moveSpeed;
             }
