@@ -1,4 +1,5 @@
 ![image](assets/image.png)
+<img src="assets/screenshot.png" width="300">
 # 🎮 One Button Game - Doodle Jump
 Un jeu de plateforme inspiré de Doodle Jump, développé sous Unity.
 
